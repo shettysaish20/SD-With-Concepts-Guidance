@@ -67,6 +67,7 @@ This project implements a form of "forced guidance" to influence the image gener
     *   It uses the gradient of this loss to adjust the latent, encouraging the generated image to resemble an airplane.
 
 ## Project Structure
+```
 SD-With-Concepts-Guidance/ 
 ├── app.py # Main application file with Gradio interface 
 ├── sd-concepts/ # Directory for storing concept embeddings (.bin files) 
@@ -79,7 +80,7 @@ SD-With-Concepts-Guidance/
 │ └── ... 
 ├── README.md # This file 
 └── requirements.txt # List of Python dependencies
-
+```
 
 ## Setup and Usage
 
